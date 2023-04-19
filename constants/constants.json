@@ -1,0 +1,30 @@
+{
+    "input_addresses":
+    {
+        "defect_fldr" : "C:/tmp/tf_custom_loop_fit/20221219/2022FromScratchSepMinus02/Defect",
+        "nodefect_fldr" : "C:/tmp/tf_custom_loop_fit/NoDefect_old_name",
+        "dump_fldr" : "C:/tmp/tf_custom_loop_fit/20221219/2022FromScratchSepMinus02/DUMP",
+        "dump_file" : "C:/tmp/tf_custom_loop_fit/20221219/2022FromScratchSepMinus02/files_grouped.csv",
+        "zip_file" : "C:/tmp/tf_custom_loop_fit/20221219/2022FromScratchSepMinus02/ds_22_12_19_7700.npz",
+        "check_point_fldr" : "C:/tmp/tf_custom_loop_fit/20221219/2022FromScratchSepMinus02/history"
+    }, 
+    "numerical_constants":
+    {
+        "batch_size" : 32,
+        "dnd_ratio" : 2,
+        "tvt_ratio" : 0.15,
+        "epochs" : 19
+    },
+    "switch_constants":
+    {
+        "from_fldr" : false,
+        "gen_csv" : false,
+        "from_csv" : false,
+        "gen_zip" : false,
+        "from_zip" : true,
+        "cont_train" : false
+    },
+    "model_constants":
+    {
+    }
+}
